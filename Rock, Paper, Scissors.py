@@ -116,6 +116,7 @@ while ((playAgain == "y") or (playAgain == "Y")):
                 print("Tied, User:", userScore, "Computer:", compScore)
 
                 #Continue.
+                print()
                 continue
 
             print()
@@ -125,13 +126,13 @@ while ((playAgain == "y") or (playAgain == "Y")):
             if userScore == 3:
 
                 #Print congradulations.
-                print("Congradulations you win over the computer", userScore, "to", compScore, end="!/n")
+                print("Congradulations you win over the computer", userScore, "to", compScore)
 
             #If computer wins.
             elif compScore == 3:
 
                 #Print computer wins.
-                print("The computer wins", compScore, "to", userScore, end="!\n")
+                print("The computer wins", compScore, "to", userScore)
 
     #If user wants to exit.
     elif ((userInput == "E") or (userInput == "e")):
